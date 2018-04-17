@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#app {
+    background-color: #B9121B;
+    color: white;
+    border-radius: 5%;
+    padding-bottom: 20px;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+.contact form {
+    margin: 0 auto;
+}
+
+.contactform input {
+    display: inline-block;
+    width: 30%;
+    margin-right: 15%;
+    margin-left: 5%;
+    margin-top: 12px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #F6E497;
+    font-family: 'Montserrat', sans-serif;
+}
+.contactform input:focus {
+  outline: none;
+}
+.contactform button {
+    display: inline-block;
+    border: 2px solid #F6E497;
+    background-color: transparent;
+    color: #F6E497;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 25%;
+    margin-top: 35px;
+    height: 50px;
+}
+
+::placeholder {
+    color: #F6E497;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.contactItem {
+    color: #F6E497;
+    font-size: 20px;
+    width: 66%;
+    padding: 30px 20px;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid #4C1B1B;
+    font-family: 'Roboto', sans-serif;
+}
+.contactLabel {
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 5px;
+}
+.contactImg {
+    width: 150px;
+    height: 150px;
+}
+
+.contactDesc {
+    vertical-align: middle;
+    margin-left: 20px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #4C1B1B;
+    font-size: 16px;
+}
