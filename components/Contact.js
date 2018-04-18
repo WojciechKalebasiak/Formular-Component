@@ -4,17 +4,21 @@ var Contact = React.createClass({
     },
     render: function() {
         return (
-            React.createElement('li', { className: 'contactItem' },
-                React.createElement('img', {
-                    src: 'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico',
-                    className: 'contactImg'
-                }),
-                React.createElement('div', { className: 'contactDesc' },
-                    React.createElement('p', { className: 'contactLabel' }, this.props.item.firstName),
-                    React.createElement('p', { className: 'contactLabel' }, this.props.item.lastName),
-                    React.createElement('a', { className: 'contactEmail', href: 'mailto' + this.props.item.email }, this.props.item.email)
-                )
-            )
+            <li className="contactItem">
+                <img className="contatctImg" src="http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico"/>
+                <div className="contactDesc">
+                     <p className="contactLabel">
+                        {this.props.item.firstName}
+                    </p>
+                    <p className="contactLabel">
+                    {this.props.item.lastName}
+                    </p>
+                    <a href={'mailto:' + this.props.item.email}>
+                        {this.props.item.lastName}
+                    </a>
+                 </div>
+            </li>
+
         );
     }
 });
