@@ -5,7 +5,7 @@ var Contact = React.createClass({
     render: function() {
         return (
             <li className="contactItem">
-                <img className="contatctImg" src="http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico"/>
+                <img className="contactImg" src="http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico"/>
                 <div className="contactDesc">
                      <p className="contactLabel">
                         {this.props.item.firstName}
